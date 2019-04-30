@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E3DBDC8225BC40800696A3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3DBDC7225BC40800696A3F /* AppDelegate.swift */; };
+		1E3DBDCE225BC40800696A3F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3DBDCD225BC40800696A3F /* GameScene.swift */; };
+		1E3DBDD0225BC40800696A3F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3DBDCF225BC40800696A3F /* GameViewController.swift */; };
+		1E3DBDD3225BC40800696A3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E3DBDD1225BC40800696A3F /* Main.storyboard */; };
+		1E3DBDD5225BC40900696A3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E3DBDD4225BC40900696A3F /* Assets.xcassets */; };
+		1E3DBDD8225BC40900696A3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E3DBDD6225BC40900696A3F /* LaunchScreen.storyboard */; };
+		1E3DBDE3225BC40900696A3F /* Ninja_HiyaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3DBDE2225BC40900696A3F /* Ninja_HiyaTests.swift */; };
+		1E3DBDEE225BC40900696A3F /* Ninja_HiyaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3DBDED225BC40900696A3F /* Ninja_HiyaUITests.swift */; };
+		1E91BF2E22610600007D53ED /* gameMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1E91BF2D22610600007D53ED /* gameMusic.mp3 */; };
+		1E91BF302261060A007D53ED /* VectorMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E91BF2F2261060A007D53ED /* VectorMath.swift */; };
+		1E91BF3222610616007D53ED /* pew.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1E91BF3122610615007D53ED /* pew.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E3DBDDF225BC40900696A3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E3DBDBC225BC40800696A3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E3DBDC3225BC40800696A3F;
+			remoteInfo = "Ninja Hiya";
+		};
+		1E3DBDEA225BC40900696A3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E3DBDBC225BC40800696A3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E3DBDC3225BC40800696A3F;
+			remoteInfo = "Ninja Hiya";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E3DBDC4225BC40800696A3F /* Ninja Hiya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ninja Hiya.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E3DBDC7225BC40800696A3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E3DBDCD225BC40800696A3F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		1E3DBDCF225BC40800696A3F /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		1E3DBDD2225BC40800696A3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E3DBDD4225BC40900696A3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E3DBDD7225BC40900696A3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E3DBDD9225BC40900696A3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E3DBDDE225BC40900696A3F /* Ninja HiyaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ninja HiyaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E3DBDE2225BC40900696A3F /* Ninja_HiyaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ninja_HiyaTests.swift; sourceTree = "<group>"; };
+		1E3DBDE4225BC40900696A3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E3DBDE9225BC40900696A3F /* Ninja HiyaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ninja HiyaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E3DBDED225BC40900696A3F /* Ninja_HiyaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ninja_HiyaUITests.swift; sourceTree = "<group>"; };
+		1E3DBDEF225BC40900696A3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E91BF2D22610600007D53ED /* gameMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = gameMusic.mp3; path = ../../../../Downloads/NinjaAssets/gameMusic.mp3; sourceTree = "<group>"; };
+		1E91BF2F2261060A007D53ED /* VectorMath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VectorMath.swift; path = ../../../../Downloads/NinjaAssets/VectorMath.swift; sourceTree = "<group>"; };
+		1E91BF3122610615007D53ED /* pew.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = pew.wav; path = ../../../../Downloads/NinjaAssets/pew.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E3DBDC1225BC40800696A3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E3DBDDB225BC40900696A3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E3DBDE6225BC40900696A3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E3DBDBB225BC40800696A3F = {
+			isa = PBXGroup;
+			children = (
+				1E3DBDC6225BC40800696A3F /* Ninja Hiya */,
+				1E3DBDE1225BC40900696A3F /* Ninja HiyaTests */,
+				1E3DBDEC225BC40900696A3F /* Ninja HiyaUITests */,
+				1E3DBDC5225BC40800696A3F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E3DBDC5225BC40800696A3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E3DBDC4225BC40800696A3F /* Ninja Hiya.app */,
+				1E3DBDDE225BC40900696A3F /* Ninja HiyaTests.xctest */,
+				1E3DBDE9225BC40900696A3F /* Ninja HiyaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E3DBDC6225BC40800696A3F /* Ninja Hiya */ = {
+			isa = PBXGroup;
+			children = (
+				1E3DBDC7225BC40800696A3F /* AppDelegate.swift */,
+				1E3DBDCD225BC40800696A3F /* GameScene.swift */,
+				1E3DBDCF225BC40800696A3F /* GameViewController.swift */,
+				1E3DBDD1225BC40800696A3F /* Main.storyboard */,
+				1E3DBDD4225BC40900696A3F /* Assets.xcassets */,
+				1E3DBDD6225BC40900696A3F /* LaunchScreen.storyboard */,
+				1E3DBDD9225BC40900696A3F /* Info.plist */,
+				1E91BF2D22610600007D53ED /* gameMusic.mp3 */,
+				1E91BF2F2261060A007D53ED /* VectorMath.swift */,
+				1E91BF3122610615007D53ED /* pew.wav */,
+			);
+			path = "Ninja Hiya";
+			sourceTree = "<group>";
+		};
+		1E3DBDE1225BC40900696A3F /* Ninja HiyaTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E3DBDE2225BC40900696A3F /* Ninja_HiyaTests.swift */,
+				1E3DBDE4225BC40900696A3F /* Info.plist */,
+			);
+			path = "Ninja HiyaTests";
+			sourceTree = "<group>";
+		};
+		1E3DBDEC225BC40900696A3F /* Ninja HiyaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1E3DBDED225BC40900696A3F /* Ninja_HiyaUITests.swift */,
+				1E3DBDEF225BC40900696A3F /* Info.plist */,
+			);
+			path = "Ninja HiyaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E3DBDC3225BC40800696A3F /* Ninja Hiya */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E3DBDF2225BC40900696A3F /* Build configuration list for PBXNativeTarget "Ninja Hiya" */;
+			buildPhases = (
+				1E3DBDC0225BC40800696A3F /* Sources */,
+				1E3DBDC1225BC40800696A3F /* Frameworks */,
+				1E3DBDC2225BC40800696A3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ninja Hiya";
+			productName = "Ninja Hiya";
+			productReference = 1E3DBDC4225BC40800696A3F /* Ninja Hiya.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E3DBDDD225BC40900696A3F /* Ninja HiyaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E3DBDF5225BC40900696A3F /* Build configuration list for PBXNativeTarget "Ninja HiyaTests" */;
+			buildPhases = (
+				1E3DBDDA225BC40900696A3F /* Sources */,
+				1E3DBDDB225BC40900696A3F /* Frameworks */,
+				1E3DBDDC225BC40900696A3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E3DBDE0225BC40900696A3F /* PBXTargetDependency */,
+			);
+			name = "Ninja HiyaTests";
+			productName = "Ninja HiyaTests";
+			productReference = 1E3DBDDE225BC40900696A3F /* Ninja HiyaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1E3DBDE8225BC40900696A3F /* Ninja HiyaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E3DBDF8225BC40900696A3F /* Build configuration list for PBXNativeTarget "Ninja HiyaUITests" */;
+			buildPhases = (
+				1E3DBDE5225BC40900696A3F /* Sources */,
+				1E3DBDE6225BC40900696A3F /* Frameworks */,
+				1E3DBDE7225BC40900696A3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E3DBDEB225BC40900696A3F /* PBXTargetDependency */,
+			);
+			name = "Ninja HiyaUITests";
+			productName = "Ninja HiyaUITests";
+			productReference = 1E3DBDE9225BC40900696A3F /* Ninja HiyaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E3DBDBC225BC40800696A3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "LUKE REUPERT";
+				TargetAttributes = {
+					1E3DBDC3225BC40800696A3F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					1E3DBDDD225BC40900696A3F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1E3DBDC3225BC40800696A3F;
+					};
+					1E3DBDE8225BC40900696A3F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1E3DBDC3225BC40800696A3F;
+					};
+				};
+			};
+			buildConfigurationList = 1E3DBDBF225BC40800696A3F /* Build configuration list for PBXProject "Ninja Hiya" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E3DBDBB225BC40800696A3F;
+			productRefGroup = 1E3DBDC5225BC40800696A3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E3DBDC3225BC40800696A3F /* Ninja Hiya */,
+				1E3DBDDD225BC40900696A3F /* Ninja HiyaTests */,
+				1E3DBDE8225BC40900696A3F /* Ninja HiyaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E3DBDC2225BC40800696A3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E91BF3222610616007D53ED /* pew.wav in Resources */,
+				1E3DBDD3225BC40800696A3F /* Main.storyboard in Resources */,
+				1E3DBDD5225BC40900696A3F /* Assets.xcassets in Resources */,
+				1E91BF2E22610600007D53ED /* gameMusic.mp3 in Resources */,
+				1E3DBDD8225BC40900696A3F /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E3DBDDC225BC40900696A3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E3DBDE7225BC40900696A3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E3DBDC0225BC40800696A3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E91BF302261060A007D53ED /* VectorMath.swift in Sources */,
+				1E3DBDCE225BC40800696A3F /* GameScene.swift in Sources */,
+				1E3DBDD0225BC40800696A3F /* GameViewController.swift in Sources */,
+				1E3DBDC8225BC40800696A3F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E3DBDDA225BC40900696A3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E3DBDE3225BC40900696A3F /* Ninja_HiyaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E3DBDE5225BC40900696A3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E3DBDEE225BC40900696A3F /* Ninja_HiyaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E3DBDE0225BC40900696A3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E3DBDC3225BC40800696A3F /* Ninja Hiya */;
+			targetProxy = 1E3DBDDF225BC40900696A3F /* PBXContainerItemProxy */;
+		};
+		1E3DBDEB225BC40900696A3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E3DBDC3225BC40800696A3F /* Ninja Hiya */;
+			targetProxy = 1E3DBDEA225BC40900696A3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E3DBDD1225BC40800696A3F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E3DBDD2225BC40800696A3F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E3DBDD6225BC40900696A3F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E3DBDD7225BC40900696A3F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E3DBDF0225BC40900696A3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1E3DBDF1225BC40900696A3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E3DBDF3225BC40900696A3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ninja Hiya/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CLC.Ninja-Hiya";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E3DBDF4225BC40900696A3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ninja Hiya/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CLC.Ninja-Hiya";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1E3DBDF6225BC40900696A3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ninja HiyaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CLC.Ninja-HiyaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ninja Hiya.app/Ninja Hiya";
+			};
+			name = Debug;
+		};
+		1E3DBDF7225BC40900696A3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ninja HiyaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CLC.Ninja-HiyaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ninja Hiya.app/Ninja Hiya";
+			};
+			name = Release;
+		};
+		1E3DBDF9225BC40900696A3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ninja HiyaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CLC.Ninja-HiyaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ninja Hiya";
+			};
+			name = Debug;
+		};
+		1E3DBDFA225BC40900696A3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Ninja HiyaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CLC.Ninja-HiyaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ninja Hiya";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E3DBDBF225BC40800696A3F /* Build configuration list for PBXProject "Ninja Hiya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E3DBDF0225BC40900696A3F /* Debug */,
+				1E3DBDF1225BC40900696A3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E3DBDF2225BC40900696A3F /* Build configuration list for PBXNativeTarget "Ninja Hiya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E3DBDF3225BC40900696A3F /* Debug */,
+				1E3DBDF4225BC40900696A3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E3DBDF5225BC40900696A3F /* Build configuration list for PBXNativeTarget "Ninja HiyaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E3DBDF6225BC40900696A3F /* Debug */,
+				1E3DBDF7225BC40900696A3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E3DBDF8225BC40900696A3F /* Build configuration list for PBXNativeTarget "Ninja HiyaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E3DBDF9225BC40900696A3F /* Debug */,
+				1E3DBDFA225BC40900696A3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E3DBDBC225BC40800696A3F /* Project object */;
+}
